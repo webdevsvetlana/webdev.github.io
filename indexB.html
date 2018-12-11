@@ -1,9 +1,7 @@
-
-<html>
+<html lang="en">
 	<head>
-		<title>Яна Аскерко</title>
-		<meta name="description" content="Яна Аскерко">
-		<meta name="Keywords" content="Яна Аскерко">
+		<title>#1.1</title>
+		<link href="styleB.css" rel="stylesheet">
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1" name="viewport"/>
 		<style type="text/css">
@@ -35,11 +33,13 @@
 				list-style-type: none;
 				padding: 0;
 			}
+
 			a 
 			{ 
 				color: white; 
 				font-style: normal; 
 				text-decoration: none;
+				font-size:16px;
 			} 
 			a:hover
 			{ 
@@ -49,26 +49,20 @@
 			article
 			{
 				float: left;
-				padding: 140px;
+				padding: 20px;
 				width: 70%;
-				background-color: #FFDAB9;
+				background-color: white;
+				color: black;
 			}
 			section
 			{
-				background-color: #FFDAB9;
+				background-color:#55737B;
 			}
 			section:after
 			{
 				content: "";
 				display: table;
 				clear: both;
-			}
-			footer
-			{
-				background-color: #DC143C;
-				padding: 1px;
-				text-align: center;
-				color: white;
 			}
 			@media (max-width: 600px)
 			{
@@ -87,23 +81,16 @@
 		<section>
 			<nav>
 				<ul>
-                                        <li>
-						<a href="indexA.html" title="Яна Аскерко">Flexible Box Layout</a> and <a href="indexB.html">Variant 2</a>
-					</li>
+					<p><a href="index.html" title="Яна Аскерко">Come back</a>
 				</ul>
 			</nav>
-			<article>
-				<p>Всем, привет!</p>
-				<br>
-				<p>Этой мой сайт и тут я выкладываю лабораторные работы по дисциплине Веб-технологии</p>
-				</br>
-				</br>
-				</br>
-				<h1>Web Technologies!</h1>
+			<article id="box">
+				<div class="A"><p>A</p></div>
+				<div><p>B</p></div>
+				<div><p>C</p></div>
+				<div><p>D</p></div>
+				<div class="final"><p>F</p></div>
 			</article>
 		</section>
-		<footer>
-			<p>Яна Аскерко</p>
-		</footer>
 	</body>
 </html>
