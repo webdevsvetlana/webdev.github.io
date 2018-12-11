@@ -20,7 +20,7 @@
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style5.css">
 </head>
 <body>
 	<header>
@@ -46,26 +46,74 @@
 	</div>
 		<!-- /.container -->
 	</header>
-
-	<section class="portfolio">
+<section class="portfolio">
 		<div class="container">
 			<div class="portfolio-block wow fadeIn">
 			<h2 class="portfolio-title">Задание</h2>
 			<p class="portfolio-subtitle">Мои работы</p>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="portfolio-col-1">
-						<p><a href="index1.html">Задание 1. Стэнфорд. Flexible Box Layout. Вариант 1</a></p><br>
-					<p><a href="index2.html">Задание 2. Стэнфорд. Flexible Box Layout. Вариант 2</a></p>
-					<p><a href="index3.html">Лаб 2. Исправить ошибку в формуле Видмарка</a></p>
-					<p><a href="index4.html">Калькулятор</a></p>
-					<p><a href="index5.html">Бреминские музыканты</a></p>
-				</div>
-				<!-- /.col-6 -->
-			</div>
-		</div>
-		</div>
-	</section>
+	
+			<section>
+		<p><a href="index.html">На главную</a></p><br>
+		using System; 
+<p>using System.Collections.Generic; 
+<p>using System.Linq; 
+<p>using System.Text; 
+
+<p>namespace Web1 
+<p>{ 
+<p>class AHero { virtual public void Say() {Console.WriteLine("Hi"); }} 
+<p>class AAnimal : AHero { } 
+<p>class AHomo : AHero 
+<p>{ 
+<p>String name; 
+<p>String job; 
+<p>public AHomo(String name, String job) 
+<p>{ this.name = name; this.job = job; } 
+<p>override public void Say() 
+<p>{ Console.WriteLine("Hello"); } 
+<p>} 
+<p>class AAss : AAnimal 
+<p>{ 
+<p>override public void Say() { Console.WriteLine("Ii‐aa"); } 
+<p>} 
+<p>class ACat : AAnimal 
+<p>{ 
+<p>override public void Say() { Console.WriteLine("miau‐miau"); } 
+<p>} 
+<p>class ADog : AAnimal 
+<p>{ 
+<p>override public void Say() { Console.WriteLine("gav‐gav"); } 
+<p>} 
+<p>class ACock : AAnimal 
+<p>{ override public void Say() { Console.WriteLine("ku‐ka‐re‐ku"); } } 
+
+<p>class ADieBremenStadtMusicanten { static void Main(string[] args){ 
+<p>ACat cat = new ACat(); 
+<p>AAss ass = new AAss(); 
+<p>ADog dog = new ADog(); 
+<p>ACock ck = new ACock(); 
+<p>AHomo h = new AHomo("1","Trompeter"); 
+<p>AHero[] ah = new AHero[5]; 
+<p>ah[0] = cat; 
+<p>ah[1] = dog; 
+<p>ah[2] = ass; 
+<p>ah[3]= ck; 
+<p>ah[4] = h; 
+
+<p>int j; 
+<p>int k=0; 
+<p>for (int i = 0; i < 5; i++) { 
+<p>Console.Write(" "+ah[i].GetType().Name+ " says "); 
+<p>ah[i].Say(); } 
+<p>Console.BackgroundColor = ConsoleColor.Blue; 
+<p>while (k<5) { 
+<p>Console.Write(" "+ah[k].GetType().Name+" says "); 
+<p>j = k++ < 4 ? k : 0; 
+<p>ah[j].Say(); } 
+<p>} 
+<p>} 
+<p>}
+  </p>
 
 	<footer>
 		<div class="container">
