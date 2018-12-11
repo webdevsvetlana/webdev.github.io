@@ -1,0 +1,26 @@
+#box div
+{
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 150px;
+	border-left: 10px dotted #D0D0FF;
+	background: #eeeff2;
+}
+p
+{
+	font-family: Tahoma;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.final
+{
+	position: absolute;
+        bottom: 0;
+        right: 0;
+}
+#box div:hover
+{
+	background-color:red;
+}
